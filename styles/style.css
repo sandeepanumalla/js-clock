@@ -1,75 +1,77 @@
 body {
-  background: -webkit-gradient(linear, right top, left top, from(#13ADC7), to(#945DD6));
-  background: linear-gradient(270deg, #13ADC7 0%, #945DD6 100%);
+    background: -webkit-gradient(linear, right top, left top, from(#13ADC7), to(#945DD6));
+    background: linear-gradient(270deg, #13ADC7 0%, #945DD6 100%);
 }
 
 .container {
-  display: -ms-grid;
-  display: grid;
-  place-items: center;
+    display: -ms-grid;
+    display: grid;
+    place-items: center;
 }
 
 .clock {
-  margin-top: 5rem;
-  border: 0.5rem solid #252525;
-  height: 20rem;
-  width: 20rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  border-radius: 50%;
+    margin-top: 5rem;
+    border: 0.5rem solid #252525;
+    height: 20rem;
+    width: 20rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 50%;
 }
 
 .clock .hour-hand,
 .clock .minute-hand,
 .clock .second-hand {
-  position: absolute;
-  width: 9rem;
-  background-color: #252525;
-  margin-left: 1rem;
-  -webkit-transform-origin: 100%;
-          transform-origin: 100%;
-  border: 2px solid #252525;
-  -webkit-transition: all .1s ease-in-out;
-  transition: all .1s ease-in-out;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-rendering: optimizeLegibility;
+    position: absolute;
+    width: 9rem;
+    background-color: #252525;
+    margin-left: 1rem;
+    -webkit-transform-origin: 100%;
+    transform-origin: 100%;
+    border: 2px solid #252525;
+    -webkit-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
 }
 
 .clock .hour-hand {
-  width: 6rem;
-  -webkit-transform-origin: 100%;
-  transform-origin: 100%;
-  margin-left: 4.3rem;
-  height: .4rem;
-  border-radius: 5px;
+    width: 6rem;
+    -webkit-transform-origin: 100%;
+    transform-origin: 100%;
+    margin-left: 4.3rem;
+    height: .4rem;
+    border-radius: 5px;
 }
 
 .clock .minute-hand {
-  width: 7rem;
-  height: 0.3rem;
-  border-radius: 5px;
-  margin-left: 3.1rem;
+    width: 7rem;
+    height: 0.3rem;
+    border-radius: 5px;
+    margin-left: 3.1rem;
 }
 
 .clock .second-hand {
-  width: 9rem;
-  border-radius: 5px;
-  margin-left: 1.1rem;
+    width: 9rem;
+    border-radius: 5px;
+    margin-left: 1.1rem;
 }
 
 .clock .center {
-  width: 2rem;
-  height: 2rem;
-  border-radius: 50%;
-  margin-left: 9.5rem;
-  background-color: #252525;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    margin-left: 9.5rem;
+    background-color: #252525;
 }
+
+
 /*# sourceMappingURL=style.css.map */
