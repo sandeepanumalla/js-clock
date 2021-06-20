@@ -11,7 +11,7 @@ body {
 
 .clock {
   margin-top: 5rem;
-  border: 0.5rem solid #e6e4e4;
+  border: 0.5rem solid #252525;
   height: 20rem;
   width: 20rem;
   display: -webkit-box;
@@ -31,11 +31,11 @@ body {
 .clock .second-hand {
   position: absolute;
   width: 9rem;
-  background-color: #e6e4e4;
+  background-color: #252525;
   margin-left: 1rem;
   -webkit-transform-origin: 100%;
           transform-origin: 100%;
-  border: 2px solid #e6e4e4;
+  border: 2px solid #252525;
   -webkit-transition: all .1s ease-in-out;
   transition: all .1s ease-in-out;
   -webkit-font-smoothing: antialiased;
@@ -70,6 +70,6 @@ body {
   height: 2rem;
   border-radius: 50%;
   margin-left: 9.5rem;
-  background-color: #e6e4e4;
+  background-color: #252525;
 }
 /*# sourceMappingURL=style.css.map */
