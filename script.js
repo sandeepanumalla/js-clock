@@ -4,16 +4,6 @@ window.onload = () => {
     let hoursHand = document.querySelector(".hour-hand");
     let clock = document.querySelector(".clock");
 
-    // for (let i = 0; i < 12; i++) {
-    //     let each = i / 12 * 360;
-    //     let numbers = document.createElement("div");
-    //     numbers.classList = "numbers";
-    //     let number = document.createElement("p");
-    //     number.textContent = i;
-    //     numbers.appendChild(p);
-    //     clock.appendChild(numbers);
-    //     console.log("each", i, each);
-    // }
 
 
     let seconds = () => {
@@ -33,7 +23,7 @@ window.onload = () => {
         minutesHand.style.transform = `rotate(${minutesDegree+90}Deg)`;
 
         let hours = now.getHours();
-        let HoursDegree = (hours / 60) * 360;
+        let HoursDegree = ((hours + (minutes / 60)) / 12) * 360;
         hoursHand.style.transform = `rotate(${HoursDegree+90}Deg)`;
 
     }
