@@ -24,6 +24,9 @@ window.onload = () => {
 
         let hours = now.getHours();
         let HoursDegree = ((hours + (minutes / 60)) / 12) * 360;
+        // let margin = 5 - (minutes / 60);
+        // console.log(margin);
+        //hoursHand.style.marginLeft = `${margin}rem`
         hoursHand.style.transform = `rotate(${HoursDegree+90}Deg)`;
 
     }
